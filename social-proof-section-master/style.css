@@ -8,7 +8,13 @@
 }
 body{
     font-family: 'League Spartan', Helvetica, sans-serif;
-
+    height: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
 }
 .top_social_proof_section {
     display: flex;
@@ -16,18 +22,71 @@ body{
 }
 
 .social_proof_header_section {
-    display: flex;
 }
 
 .social_proof_header {
+    width: auto;
     display: flex;
     flex-direction: column;
+
 }
 
 .header_text {
     color: var(--primary-dark-magenta);
+    font-weight: 700;
+    font-size: 3rem;
+    width: 60%;
 }
 
 .blurb_text {
     color: var(--neutral-grayish-magenta);
+    font-weight: 500;
+    opacity: 90%;
+    width: 55%;
+
+}
+
+.star_review_section {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 5rem;
+}
+.start_review_child:nth-child(1){
+    margin-right: 2rem;
+    /*margin-left: 1rem;*/
+    /*padding-left: 6rem;*/
+}
+
+.start_review_child:nth-child(2){
+    margin-right: 1rem;
+    margin-left: .5rem;
+}
+.start_review_child:nth-child(3){
+    margin-right: 0;
+    margin-left: 2rem;
+
+}
+.third_party_review {
+    float: right;
+    width: 80%;
+    display: flex;
+    background-color: var(--neutral-light-grayish-magenta);
+    border-radius: 5px;
+    padding: .1rem 2rem .1rem 1rem;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+    gap: 2rem;
+
+
+}
+
+
+
+.third_party_reviewer {
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--primary-dark-magenta);
 }
