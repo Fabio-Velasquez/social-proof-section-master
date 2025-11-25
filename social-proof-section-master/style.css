@@ -1,0 +1,33 @@
+:root{
+    --primary-dark-magenta:  hsl(300, 43%, 22%);
+    --primary-soft-pink: hsl(333, 80%, 67%);
+    --neutral-grayish-magenta: hsl(303, 10%, 53%);
+    --neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+    --neutral-white: hsl(0, 0%, 100%);
+
+}
+body{
+    font-family: 'League Spartan', Helvetica, sans-serif;
+
+}
+.top_social_proof_section {
+    display: flex;
+
+}
+
+.social_proof_header_section {
+    display: flex;
+}
+
+.social_proof_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_text {
+    color: var(--primary-dark-magenta);
+}
+
+.blurb_text {
+    color: var(--neutral-grayish-magenta);
+}
